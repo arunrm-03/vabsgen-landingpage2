@@ -247,7 +247,7 @@ export default function ContentSection() {
           <div className="band rv">
             <h2>Be part of the next generation of college learning.</h2>
             <p>We are currently building Vabsgen and working toward our initial product launch. Colleges interested in exploring the platform can get in touch with us for early access and collaboration opportunities.</p>
-            <a className="btn p" href="mailto:official@vabsgen.com">Get Early Access</a>
+            <a className="btn p" href="https://ailms.vabsgen.com/login">Get Early Access</a>
             <a className="mail" href="mailto:official@vabsgen.com">official@vabsgen.com</a>
           </div>
         </div>
@@ -265,7 +265,7 @@ export default function ContentSection() {
           <div className="biz rv" style={{ transitionDelay: '0.1s' }}>
             <h3>AI Automation & Business Solutions</h3>
             <p>In addition to our EdTech platform, Vabsgen develops AI-powered automation solutions for businesses, including workflow automation, API integrations, and custom AI systems.</p>
-            <a className="btn" href="mailto:official@vabsgen.com">Explore Business Solutions</a>
+            <a className="btn" href="https://ailms.vabsgen.com/login">Explore Business Solutions</a>
           </div>
         </div>
       </section>

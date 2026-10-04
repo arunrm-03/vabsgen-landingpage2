@@ -53,6 +53,13 @@ function App() {
 
   return (
     <main style={{ backgroundColor: 'black' }}>
+      <a 
+        href="https://ailms.vabsgen.com/login" 
+        className="fixed top-8 right-8 md:right-16 z-[100] pointer-events-auto text-[#f97316] hover:text-[#fb923c] px-4 py-2 font-black text-2xl md:text-4xl transition-all duration-300 hover:scale-105"
+        style={{ textDecoration: 'none' }}
+      >
+        Login
+      </a>
       <ScrollAnimation />
 
       <SuccessCarousel />
