@@ -1,0 +1,26 @@
+.scroll-float {
+  /* Removed overflow: hidden to fix clipping */
+}
+
+.scroll-float-text {
+  display: inline-block;
+  font-size: clamp(2rem, 6vw, 5.5rem);
+  font-weight: 900;
+  text-align: center;
+  line-height: 1.5;
+  padding: 20px 10px;
+  max-width: 1200px;
+  white-space: normal;
+}
+
+.char {
+  display: inline-block;
+  /* Trick to expand paint area and stop background-clip from cutting off the top/bottom of tall letters, applied ONLY vertically so they don't overlap horizontally */
+  padding: 0.1em 0;
+  margin: -0.1em 0;
+  background: linear-gradient(to right, #fb923c, #f97316, #ea580c);
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
