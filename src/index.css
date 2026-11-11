@@ -58,9 +58,47 @@ body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
 /* --------------------------------- */
 /* VABSGEN GLOBAL CSS                */
 /* --------------------------------- */
+
+@keyframes movingShimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.moving-title-1 {
+  background: linear-gradient(90deg, #ffffff 0%, #fed7aa 25%, #f97316 50%, #fde047 75%, #ffffff 100%);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: movingShimmer 4.5s ease infinite;
+}
+
+.moving-title-2 {
+  background: linear-gradient(90deg, #ea580c 0%, #f97316 25%, #fbbf24 50%, #ffffff 75%, #f97316 100%);
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: movingShimmer 4s ease-in-out infinite;
+}
 
 .rv {
   opacity: 0;
@@ -68,7 +106,6 @@ body {
   transition-property: opacity, transform;
   transition-duration: 0.8s;
   transition-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
-  will-change: opacity, transform;
 }
 .rv.in {
   opacity: 1;
@@ -106,13 +143,13 @@ section.content-sec { padding: 96px 0; }
 .item p { font-size: 14.5px; color: var(--mute); }
 
 .steps { display: grid; grid-template-columns: repeat(6, 1fr); gap: 16px; position: relative; }
-.steps::before { content: ""; position: absolute; top: 27px; left: 5%; right: 5%; height: 2px; background: linear-gradient(90deg, var(--brand), var(--brand2)); opacity: 0.35; }
-.step { text-align: center; position: relative; padding: 0 6px; }
-.dot { width: 54px; height: 54px; margin: 0 auto 16px; border-radius: 50%; background: var(--bg); border: 2px solid var(--brand); display: grid; place-items: center; font-weight: 700; font-size: 16px; color: var(--brand); transition: transform 0.3s, background 0.3s, color 0.3s; position: relative; z-index: 10; }
+.steps::before { content: ""; position: absolute; top: 27px; left: calc(100% / 12); right: calc(100% / 12); height: 2px; background: linear-gradient(90deg, var(--brand), var(--brand2)); opacity: 0.35; }
+.step { text-align: center; position: relative; padding: 0 6px; display: flex; flex-direction: column; align-items: center; height: 100%; }
+.dot { width: 54px; height: 54px; margin: 0 auto 16px; border-radius: 50%; background: var(--bg); border: 2px solid var(--brand); display: grid; place-items: center; font-weight: 700; font-size: 16px; color: var(--brand); transition: transform 0.3s, background 0.3s, color 0.3s; position: relative; z-index: 10; flex-shrink: 0; }
 .step:hover .dot { background: var(--brand); color: #fff; transform: scale(1.15); }
-.step h3 { font-size: 17px; margin-bottom: 6px; font-weight: 700; color: var(--ink); }
-.step p { font-size: 14px; color: var(--mute); }
-.step small { display: block; margin-top: 8px; color: var(--brand2); font-weight: 600; font-size: 12.5px; }
+.step h3 { font-size: 17px; margin-bottom: 8px; font-weight: 700; color: var(--ink); }
+.step p { font-size: 14px; color: var(--mute); line-height: 1.5; flex-grow: 1; }
+.step small { display: block; margin-top: auto; padding-top: 12px; color: var(--brand2); font-weight: 600; font-size: 12.5px; }
 
 .rm .card { border-top: 4px solid var(--brand); }
 .rm .card:nth-child(2) { border-top-color: var(--brand2); }

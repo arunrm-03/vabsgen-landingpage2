@@ -8,100 +8,100 @@ export default function ContentSection() {
       <section className="content-sec alt" id="platform">
         <div className="wrap">
           <div className="head rv">
-            <span className="tag">Bridging the Gap Between Learning and Employability</span>
-            <h2>Students need more than course completion.</h2>
-            <p>Traditional learning platforms often focus on delivering course content. Vabsgen is designed to help colleges go beyond that by connecting learning, skill development, assessments, and placement preparation in one platform.</p>
+            <span className="tag">AI Career Placement Platform</span>
+            <h2>Bridging the Gap Between Learning and Career Placement</h2>
+            <p>Traditional learning platforms focus primarily on passive course delivery. An AI Career Placement Platform connects personalized learning, skill gap analysis, conversational AI mock interviews, and student placement training in one unified system.</p>
           </div>
           <div className="g g4">
             <div className="card rv">
               <div className="ic">📚</div>
               <h3>Generic Learning</h3>
-              <p>Students often follow the same learning path regardless of their individual skills, interests, and goals.</p>
+              <p>Students often follow identical, one-size-fits-all curricula without regard for personal career goals or market demand.</p>
             </div>
             <div className="card rv" style={{ transitionDelay: '0.08s' }}>
               <div className="ic">🧭</div>
-              <h3>Limited Career Guidance</h3>
-              <p>Students may struggle to understand what skills they need to develop for their desired career path.</p>
+              <h3>AI Career Roadmap Void</h3>
+              <p>Without data-backed milestones, students struggle to identify which technical and soft skills matter most to recruiters.</p>
             </div>
             <div className="card rv" style={{ transitionDelay: '0.16s' }}>
               <div className="ic">📉</div>
-              <h3>Difficult Progress Tracking</h3>
-              <p>Colleges need better visibility into student learning, assessment performance, and skill development.</p>
+              <h3>Progress Blindspots</h3>
+              <p>Colleges lack real-time visibility into student skill benchmarks, assessment outcomes, and hiring readiness.</p>
             </div>
             <div className="card rv" style={{ transitionDelay: '0.24s' }}>
               <div className="ic">💼</div>
-              <h3>Placement Preparation</h3>
-              <p>Students need continuous preparation and measurable skill development before entering placement processes.</p>
+              <h3>Student Placement Training</h3>
+              <p>Continuous interview coaching and practical simulations are required long before students enter corporate hiring drives.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Section 2: The Vabsgen Platform */}
+      {/* Section 2: Platform Architecture */}
       <section className="content-sec">
         <div className="wrap">
           <div className="head c rv">
-            <span className="tag">The Vabsgen Platform</span>
-            <h2>One platform for learning, skills, and placement readiness.</h2>
-            <p>Vabsgen brings together learning management, personalized learning experiences, AI-assisted guidance, assessments, and progress tracking to help colleges support students throughout their skill-development journey.</p>
+            <span className="tag">Career Placement Architecture</span>
+            <h2>One unified platform for learning, mock interviews, and job readiness.</h2>
+            <p>Our platform unites AI-powered learning management, conversational voice interviews, personalized career roadmaps, resume building, and job readiness assessments to guide students toward successful careers.</p>
           </div>
           <div className="g g3">
             <div className="card rv">
               <div className="ic">🎯</div>
-              <h3>Personalized Learning</h3>
-              <p>Learning experiences can be tailored around a student's progress, skills, and development needs.</p>
+              <h3>Personalized AI Career Roadmap</h3>
+              <p>Learning journeys and milestone roadmaps tailored dynamically around individual progress, target roles, and market needs.</p>
             </div>
             <div className="card rv" style={{ transitionDelay: '0.1s' }}>
               <div className="ic">🤖</div>
-              <h3>AI-Assisted Guidance</h3>
-              <p>AI helps students understand learning requirements, explore development areas, and receive contextual guidance.</p>
+              <h3>AI Mock & Voice Interviews</h3>
+              <p>Real-time conversational interview simulations with instant evaluative feedback on knowledge, clarity, and confidence.</p>
             </div>
             <div className="card rv" style={{ transitionDelay: '0.2s' }}>
               <div className="ic">📈</div>
-              <h3>Measurable Progress</h3>
-              <p>Assessments and progress tracking help students and institutions understand learning outcomes and areas for improvement.</p>
+              <h3>Job Readiness Assessment</h3>
+              <p>Comprehensive benchmarking and skill diagnostics to verify student competency before campus placement drives.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Section 3: Platform Features (alt) */}
+      {/* Section 3: Dedicated Feature Blocks */}
       <section className="content-sec alt" id="features">
         <div className="wrap">
           <div className="head c rv">
             <span className="tag">Platform Features</span>
-            <h2>Everything students need to keep learning and improving.</h2>
+            <h2>Everything students and colleges need for career placement.</h2>
           </div>
           <div className="g g3">
             <div className="card rv">
-              <div className="ic">🎯</div>
-              <h3>Personalized Learning</h3>
-              <p>Help students follow learning paths that align with their current abilities, goals, and skill-development needs.</p>
+              <div className="ic">🎙️</div>
+              <h3>AI Mock Interview</h3>
+              <p>Simulate realistic technical and HR interview scenarios with conversational AI that asks contextual questions and critiques your answers.</p>
             </div>
             <div className="card rv" style={{ transitionDelay: '0.08s' }}>
-              <div className="ic">🤖</div>
-              <h3>AI-Assisted Guidance</h3>
-              <p>Provide students with AI-assisted support to navigate learning, understand concepts, identify development areas, and make better learning decisions.</p>
+              <div className="ic">🗣️</div>
+              <h3>AI Voice Interview</h3>
+              <p>Practice voice-enabled interviews with real-time feedback on speech cadence, confidence, domain accuracy, and professional delivery.</p>
             </div>
             <div className="card rv" style={{ transitionDelay: '0.16s' }}>
-              <div className="ic">📝</div>
-              <h3>Assessments</h3>
-              <p>Evaluate student understanding and skills through structured assessments and performance tracking.</p>
+              <div className="ic">🗺️</div>
+              <h3>AI Career Roadmap</h3>
+              <p>Follow a customized milestone roadmap that maps exact skills, projects, and certifications required to land your desired corporate role.</p>
             </div>
             <div className="card rv">
-              <div className="ic">📊</div>
-              <h3>Progress Tracking</h3>
-              <p>Give students visibility into their learning progress while helping colleges understand student development.</p>
+              <div className="ic">🧠</div>
+              <h3>AI Learning Platform</h3>
+              <p>Access adaptive courses and learning modules that automatically adjust pace and depth based on personal diagnostic performance.</p>
             </div>
             <div className="card rv" style={{ transitionDelay: '0.08s' }}>
-              <div className="ic">🛠️</div>
-              <h3>Skill Development</h3>
-              <p>Help students identify and develop the skills needed for their academic and career goals.</p>
+              <div className="ic">📄</div>
+              <h3>AI Resume Builder</h3>
+              <p>Generate ATS-optimized resumes targeted to specific job descriptions with keyword optimization and accomplishment framing.</p>
             </div>
             <div className="card rv" style={{ transitionDelay: '0.16s' }}>
               <div className="ic">🚀</div>
-              <h3>Placement Readiness</h3>
-              <p>Support continuous preparation for placements by connecting learning and skill development with career readiness.</p>
+              <h3>Student Placement Training</h3>
+              <p>Equip students with continuous aptitude training, mock interviews, and job readiness assessments to maximize placement offers.</p>
             </div>
           </div>
         </div>
@@ -111,30 +111,30 @@ export default function ContentSection() {
       <section className="content-sec ai-sec">
         <div className="wrap">
           <div className="head rv">
-            <span className="tag">Intelligence Built Into Learning</span>
-            <h2>AI that helps students learn with more direction.</h2>
-            <p>Vabsgen uses AI to make the learning experience more personalized and supportive. Instead of treating every student the same, the platform is designed to provide AI-assisted guidance based on learning progress, assessments, skills, and development goals.</p>
+            <span className="tag">Intelligence Built Into Career Placement</span>
+            <h2>AI that guides every stage of student career development.</h2>
+            <p>Our platform uses advanced generative AI to make career preparation deeply personalized and measurable. Rather than generic tutorials, intelligent AI models provide real-time voice interview feedback, customized career roadmaps, resume ATS scoring, and diagnostic skill assessments.</p>
           </div>
           <div className="g g4">
             <div className="card rv">
               <div className="num">1</div>
-              <h3>AI-Assisted Learning Guidance</h3>
-              <p>Help students navigate what they should learn and where they can improve.</p>
+              <h3>AI Voice & Mock Interviews</h3>
+              <p>Simulate authentic interview rounds with real-time feedback on speech clarity, technical depth, and tone.</p>
             </div>
             <div className="card rv" style={{ transitionDelay: '0.08s' }}>
               <div className="num">2</div>
-              <h3>Personalized Recommendations</h3>
-              <p>Provide learning recommendations based on individual progress and development needs.</p>
+              <h3>Personalized Career Roadmaps</h3>
+              <p>Follow automated milestone roadmaps mapped to the exact requirements of top hiring companies.</p>
             </div>
             <div className="card rv" style={{ transitionDelay: '0.16s' }}>
               <div className="num">3</div>
-              <h3>Learning Support</h3>
-              <p>Give students AI-assisted support throughout their learning journey.</p>
+              <h3>AI-Assisted Learning Guidance</h3>
+              <p>Targeted skill modules that fill diagnostic knowledge gaps with contextual precision.</p>
             </div>
             <div className="card rv" style={{ transitionDelay: '0.24s' }}>
               <div className="num">4</div>
-              <h3>Progress-Aware Guidance</h3>
-              <p>Use learning and assessment progress to provide more relevant guidance.</p>
+              <h3>Job Readiness Assessment</h3>
+              <p>Measurable multi-dimensional scoring evaluating coding, aptitude, and communication competency.</p>
             </div>
           </div>
         </div>
@@ -222,7 +222,7 @@ export default function ContentSection() {
 
 
 
-      {/* Section 10: FAQ */}
+      {/* Section 10: FAQ (AEO & GEO Optimized) */}
       <section className="content-sec alt">
         <div className="wrap">
           <div className="head c rv">
@@ -230,13 +230,34 @@ export default function ContentSection() {
             <h2>Frequently Asked Questions</h2>
           </div>
           <div className="faq rv">
-            <details><summary>What is Vabsgen?</summary><p>Vabsgen is an AI-powered LMS being built for colleges and students, focused on placement readiness and skill development.</p></details>
-            <details><summary>Who is Vabsgen for?</summary><p>Vabsgen is built for colleges that want to support student development, and for students who want a structured path to build skills and prepare for careers.</p></details>
-            <details><summary>How does AI help students?</summary><p>AI provides guidance based on learning progress, assessments, skills, and development goals, helping students understand what to learn and where to improve.</p></details>
-            <details><summary>Does Vabsgen provide assessments?</summary><p>Yes. Structured assessments and performance tracking help evaluate student understanding and skills.</p></details>
-            <details><summary>Can students track their progress?</summary><p>Yes. Students can see how their learning and assessment performance develops over time, while colleges get a clearer view of student development.</p></details>
-            <details><summary>Is Vabsgen available now?</summary><p>Not yet. We are currently building Vabsgen and working toward our initial product launch.</p></details>
-            <details><summary>Can colleges participate in the early stage?</summary><p>Yes. Colleges interested in exploring the platform can contact us for early access and collaboration opportunities.</p></details>
+            <details>
+              <summary>What is an AI Career Placement Platform?</summary>
+              <p>An AI Career Placement Platform is an intelligent end-to-end career development ecosystem that bridges academic learning and corporate employability. It combines adaptive learning management, AI mock interviews, conversational AI voice practice, personalized career roadmaps, ATS resume building, and measurable job readiness assessments to guide students from foundational study to corporate placement.</p>
+            </details>
+            <details>
+              <summary>How do AI Mock Interviews and AI Voice Interviews work?</summary>
+              <p>AI Mock Interviews and AI Voice Interviews simulate real-world technical, behavioral, and HR interview scenarios using conversational generative AI. Students speak or interact in real-time, and the AI evaluates speech clarity, technical precision, confidence, tone, and body of knowledge, delivering instant corrective feedback and actionable improvement tips.</p>
+            </details>
+            <details>
+              <summary>What is an AI Career Roadmap?</summary>
+              <p>An AI Career Roadmap is a customized step-by-step learning and milestone pathway created by artificial intelligence. It evaluates a student's current skill profile against real-time industry job requirements and maps out exact subjects, projects, assessments, and certifications required to achieve target career roles.</p>
+            </details>
+            <details>
+              <summary>What is included in a Job Readiness Assessment?</summary>
+              <p>A Job Readiness Assessment evaluates student competencies across four key corporate dimensions: coding and technical knowledge, logical and quantitative aptitude, verbal and interpersonal communication, and domain-specific problem solving. It provides quantifiable readiness scores and identifies specific skill gaps before placement season.</p>
+            </details>
+            <details>
+              <summary>How does an AI Resume Builder improve placement success?</summary>
+              <p>The AI Resume Builder scans student achievements, projects, and skills to generate ATS-friendly resumes aligned with target industry job descriptions. It recommends high-impact action verbs, quantifies accomplishments, and optimizes keyword density to pass automated recruiter screening systems.</p>
+            </details>
+            <details>
+              <summary>How does Student Placement Training support colleges and institutions?</summary>
+              <p>Student Placement Training centralizes campus-wide placement activities, assessments, and continuous training into a unified dashboard. Colleges gain complete cohort-level visibility into student progress, assessment scores, and corporate interview readiness, significantly boosting campus recruitment placement rates.</p>
+            </details>
+            <details>
+              <summary>Who benefits from an AI Career Development Platform?</summary>
+              <p>Both students and educational institutions benefit. Students receive 24/7 personalized coaching, simulated interview experience, and clear roadmaps, while colleges and placement training teams gain measurable tracking, automated assessment tools, and improved placement outcomes.</p>
+            </details>
           </div>
         </div>
       </section>

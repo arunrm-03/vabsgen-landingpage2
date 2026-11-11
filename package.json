@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
-    "@studio-freight/lenis": "^1.0.42",
+    "@types/three": "^0.186.0",
     "clsx": "^2.1.1",
     "framer-motion": "^14.0.0",
     "gsap": "^3.15.0",
@@ -19,7 +19,8 @@
     "lucide-react": "^1.51.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "tailwind-merge": "^3.7.0"
+    "tailwind-merge": "^3.7.0",
+    "three": "^0.186.1"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.3",
@@ -28,6 +29,7 @@
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
     "oxlint": "^1.81.0",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4.3.3",
     "typescript": "~6.0.2",
     "vite": "^8.3.0"

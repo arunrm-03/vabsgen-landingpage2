@@ -54,37 +54,40 @@ const ScrollFloat = ({
     if (!el) return;
 
     const scroller = scrollContainerRef && scrollContainerRef.current ? scrollContainerRef.current : window;
-
     const charElements = el.querySelectorAll('.char');
 
-    gsap.fromTo(
-      charElements,
-      {
-        willChange: 'opacity, transform',
-        autoAlpha: 0,
-        yPercent: 120,
-        scaleY: 2.3,
-        scaleX: 0.7,
-        transformOrigin: '50% 0%'
-      },
-      {
-        duration: animationDuration,
-        ease: ease,
-        autoAlpha: 1,
-        yPercent: 0,
-        scaleY: 1,
-        scaleX: 1,
-        stagger: stagger,
-        scrollTrigger: {
-          trigger: scrollTriggerRef?.current || el,
-          scroller,
-          start: scrollStart,
-          end: scrollEnd,
-          scrub: scrub
+    const ctx = gsap.context(() => {
+      gsap.fromTo(
+        charElements,
+        {
+          willChange: 'opacity, transform',
+          autoAlpha: 0,
+          yPercent: 120,
+          scaleY: 2.3,
+          scaleX: 0.7,
+          transformOrigin: '50% 0%'
+        },
+        {
+          duration: animationDuration,
+          ease: ease,
+          autoAlpha: 1,
+          yPercent: 0,
+          scaleY: 1,
+          scaleX: 1,
+          stagger: stagger,
+          scrollTrigger: {
+            trigger: scrollTriggerRef?.current || el,
+            scroller,
+            start: scrollStart,
+            end: scrollEnd,
+            scrub: scrub
+          }
         }
-      }
-    );
-  }, [scrollContainerRef, animationDuration, ease, scrollStart, scrollEnd, stagger]);
+      );
+    }, el);
+
+    return () => ctx.revert();
+  }, [scrollContainerRef, animationDuration, ease, scrollStart, scrollEnd, stagger, scrollTriggerRef, scrub]);
 
   return (
     <h2 ref={containerRef} className={`scroll-float ${containerClassName}`}>
