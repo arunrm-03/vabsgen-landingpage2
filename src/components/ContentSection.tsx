@@ -1,6 +1,19 @@
 
 
+import { useEffect } from 'react';
+
 export default function ContentSection() {
+  useEffect(() => {
+    const handleHash = () => {
+      if (window.location.hash === '#feedback') {
+        window.location.href = '/vabsgen-feedback.html';
+      }
+    };
+    handleHash();
+    window.addEventListener('hashchange', handleHash);
+    return () => window.removeEventListener('hashchange', handleHash);
+  }, []);
+
   return (
     <div className="font-sans relative z-50 overflow-x-hidden" style={{ background: '#000', color: '#fff' }}>
       
@@ -309,6 +322,18 @@ export default function ContentSection() {
                 <li><a href="#how">How It Works</a></li>
                 <li><a href="#roadmap">Roadmap</a></li>
                 <li><a href="#contact">FAQs & Contact</a></li>
+                <li>
+                  <a
+                    href="/vabsgen-feedback.html"
+                    style={{
+                      color: '#f97316',
+                      fontWeight: 600,
+                      cursor: 'pointer'
+                    }}
+                  >
+                    Feedback
+                  </a>
+                </li>
               </ul>
             </div>
             <div>
